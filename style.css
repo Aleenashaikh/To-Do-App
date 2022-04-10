@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(201, 56, 80);
+    font-family: sans-serif;
+    color: rgb(228, 227, 227);
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+.input{
+    margin-top: 25px;
+    width: 90vh;
+    height: 50px;
+    background-color: rgb(228, 227, 227);
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: black !important;
+}
+
+.inp-btn{
+    margin-top: 25px; 
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 0px;
+    margin-left: 20px;
+}
+@media only screen and (max-width: 600px) {
+    .inp-btn {
+      margin-top: 15px;
+      margin-left: 10px;
+    }
+    .input{
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+    .ulList{
+        margin: 40px 10px 0 10px;
+    }
+  }
+.ulList{
+    margin-top: 40px;
+    width: 450px;
+    list-style: none;
+}
+.listItems{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid rgb(105, 97, 97);
+    border-radius: 50px;
+    margin-bottom: 15px;
+}
+.check{
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.btn{
+    float: right;
+    width: 20px;
+    height: 20px;
+    border-radius: 30%;
+    margin-right: 20px;
+    border: 0px;
+    padding-bottom: 15px;
+
+}
+#del{
+    background-color: red;
+    color: white;
+}
